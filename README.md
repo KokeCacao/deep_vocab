@@ -24,7 +24,7 @@
 </p>
 
 ## 下载: Download
-See `Release`
+https://github.com/KokeCacao/deep_vocab/releases
 
 ## 联系: Contacts
 
