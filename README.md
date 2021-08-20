@@ -6,7 +6,7 @@
 <h4 align="center">最科学的记忆方式</h4>
 
 <p align="center">
-  <img src="https://img.shields.io/appveyor/build/kokecacao/deep_vocab">
+  <img src="https://api.codemagic.io/apps/611d38a986db0df7ae0505e0/611d38a986db0df7ae0505df/status_badge.svg">
   <img src="https://img.shields.io/github/v/release/kokecacao/deep_vocab?include_prereleases">
   <img src="https://img.shields.io/github/last-commit/kokecacao/deep_vocab">
   <img src="https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fwww.kokecacao.me">
