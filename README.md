@@ -12,6 +12,11 @@
   <img src="https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fwww.kokecacao.me">
 </p>
 
+<p align="center">
+  <a href="https://github.com/KokeCacao/deep_vocab/blob/master/README.md">[English]</a>, 
+  <a href="https://github.com/KokeCacao/deep_vocab/blob/master/zh-CN.md">[中文]</a>
+</p>
+
 ## Features
 
 Deep Vocab is a mobile app that uses Machine Learning algorithm to actively push vocabularies that you about to forget, so that you can efficiently memorize them in your fragmented time.
