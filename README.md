@@ -161,9 +161,30 @@ https://github.com/KokeCacao/deep_vocab/releases
 
 ## TODO List
 ```
-- Vocab Search Bar
-- Bug Fixes
-- Wechat Login
+- Add: Vocab Search Bar
+- Add: Wechat Login
+- Add: app notification
+- Add: language system
+- Add: Vocab count in [已完成] section
+- Add: global configuration
+- Improve: in dismissible_vocab_row.dart, in mark_color_mutation.py (re-write it) adjust grpahql mutation to create and update sequentially
+- Test: not sure whether "erase_cache" will work with .query.populate_existing().get()
+- Improve: lag detected when doing vocab add request by sliding (due to listening to database changes)
+- Improve: do not mix mutation and query in front end, start using types and variable (especially fix backend `String` to `UUID`). Try using https://github.com/comigor/artemis
+- Improve: sync time zone: https://pub.dev/packages/timezone. datetime should be consistent and use universal timestamp and convert to local time when appropriate. but user display should display according to local time zone (especially in stats)
+- Improve: error message should be more clear, not just throw error (notification for unsuccessful refresh due to internet connection)
+- Improve: limite rate of sending email from server side (can be solved by limit request/sec for ip)
+- Improve: test that actually not sending multiple request before the request returns
+- Improve: set restriction on field using validate, only validate once when submit?
+- Fix: Pin Code Issue https://github.com/adar2378/pin_code_fields/issues/204 (login screen button to always shown above keyboard) 邮件验证码加到标题
+- Add: bug log report, custom support
+- Add: try logout user after password modification
+- Add: emoji support for normal texts
+- Add: filter by star/pin
+- Fix: login screen scroll view wave animation
+- Fix: optimization: https://segmentfault.com/a/1190000019462984
+- Improve: 注册时 actually 引导到注册, 
+- Fix: password: must contain one letter 省略号看不到
 ```
 
 For detailed TODO List, join our [discord](https://discord.gg/bK5aU5tt8M)
