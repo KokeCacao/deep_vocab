@@ -161,6 +161,7 @@ https://github.com/KokeCacao/deep_vocab/releases
 
 ## TODO List
 ```
+- Fix: bug why sharing vocab data.
 - Add: Vocab Search Bar
 - Add: Wechat Login
 - Add: app notification
@@ -174,9 +175,10 @@ https://github.com/KokeCacao/deep_vocab/releases
 - Improve: sync time zone: https://pub.dev/packages/timezone. datetime should be consistent and use universal timestamp and convert to local time when appropriate. but user display should display according to local time zone (especially in stats)
 - Improve: error message should be more clear, not just throw error (notification for unsuccessful refresh due to internet connection)
 - Improve: limite rate of sending email from server side (can be solved by limit request/sec for ip)
-- Improve: test that actually not sending multiple request before the request returns
+- Test: test that actually not sending multiple request before the request returns
 - Improve: set restriction on field using validate, only validate once when submit?
 - Fix: Pin Code Issue https://github.com/adar2378/pin_code_fields/issues/204 (login screen button to always shown above keyboard) 邮件验证码加到标题
+- Fix: pin code email out of sight
 - Add: bug log report, custom support
 - Add: try logout user after password modification
 - Add: emoji support for normal texts
@@ -185,6 +187,15 @@ https://github.com/KokeCacao/deep_vocab/releases
 - Fix: optimization: https://segmentfault.com/a/1190000019462984
 - Improve: 注册时 actually 引导到注册, 
 - Fix: password: must contain one letter 省略号看不到
+- Improve: allow some special character to password
+- Feedback: download need text indication
+- Feedback: make hide vocab bigger
+- Feedback: make vocabs bigger (or adjustable)
+- Feedback: 注册时 actually 引导到注册
+- Feedback: must contain one letter 省略号看不到
+- Feedback: 邮件验证码加到标题
+- Feedback: 更改密码 不要调到 register
+- Feedback: 背了以后需要反馈 选中了哪个需要反馈
 ```
 
 For detailed TODO List, join our [discord](https://discord.gg/bK5aU5tt8M)
