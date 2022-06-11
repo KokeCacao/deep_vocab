@@ -163,6 +163,7 @@ https://github.com/KokeCacao/deep_vocab/releases
 ```
 - Fix: bug why sharing vocab data.
 - Add: Vocab Search Bar
+- Add: Tutorial Screen
 - Add: Wechat Login
 - Add: app notification
 - Add: language system
@@ -171,13 +172,13 @@ https://github.com/KokeCacao/deep_vocab/releases
 - Improve: in dismissible_vocab_row.dart, in mark_color_mutation.py (re-write it) adjust grpahql mutation to create and update sequentially
 - Test: not sure whether "erase_cache" will work with .query.populate_existing().get()
 - Improve: lag detected when doing vocab add request by sliding (due to listening to database changes)
-- Improve: do not mix mutation and query in front end, start using types and variable (especially fix backend `String` to `UUID`). Try using https://github.com/comigor/artemis
+- Improve: do not mix mutation and query in the front end, start using types and variables (especially fix backend `String` to `UUID`). Try using https://github.com/comigor/artemis
 - Improve: sync time zone: https://pub.dev/packages/timezone. datetime should be consistent and use universal timestamp and convert to local time when appropriate. but user display should display according to local time zone (especially in stats)
 - Improve: error message should be more clear, not just throw error (notification for unsuccessful refresh due to internet connection)
-- Improve: limite rate of sending email from server side (can be solved by limit request/sec for ip)
-- Test: test that actually not sending multiple request before the request returns
-- Improve: set restriction on field using validate, only validate once when submit?
-- Fix: Pin Code Issue https://github.com/adar2378/pin_code_fields/issues/204 (login screen button to always shown above keyboard) 邮件验证码加到标题
+- Improve: limit rate of sending email from server-side (can be solved by limit request/sec for ip)
+- Test: test that actually not sending multiple requests before the request returns
+- Improve: set restriction on the field using validate, only validate once when submit?
+- Fix: Pin Code Issue https://github.com/adar2378/pin_code_fields/issues/204 (login screen button to always shown above the keyboard) 邮件验证码加到标题
 - Fix: pin code email out of sight
 - Add: bug log report, custom support
 - Add: try logout user after password modification
@@ -187,7 +188,7 @@ https://github.com/KokeCacao/deep_vocab/releases
 - Fix: optimization: https://segmentfault.com/a/1190000019462984
 - Improve: 注册时 actually 引导到注册, 
 - Fix: password: must contain one letter 省略号看不到
-- Improve: allow some special character to password
+- Improve: allow some special characters to the password
 - Feedback: download need text indication
 - Feedback: make hide vocab bigger
 - Feedback: make vocabs bigger (or adjustable)
@@ -196,6 +197,9 @@ https://github.com/KokeCacao/deep_vocab/releases
 - Feedback: 邮件验证码加到标题
 - Feedback: 更改密码 不要调到 register
 - Feedback: 背了以后需要反馈 选中了哪个需要反馈
+- Feedback: 本地存储数据, 这样划掉单词没有延迟
+- Feedback: 用户可以设置是否显示上次背诵的单词的选项颜色
+- Feedback: 用户标记颜色: 边框或者背景
 ```
 
 For detailed TODO List, join our [discord](https://discord.gg/bK5aU5tt8M)
