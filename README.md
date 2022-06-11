@@ -202,6 +202,10 @@ git submodule sync --recursive
 git submodule update --init --recursive
 ```
 
+Make sure you installed dart and flutter and add the path to your environment variable (either in `.bashrc` or in android studio)
+
+Open Android studio and run the app.
+
 ### Frontend Installation
 
 To run flutter app
