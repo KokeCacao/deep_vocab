@@ -179,7 +179,6 @@ https://github.com/KokeCacao/deep_vocab/releases
 - Test: test that actually not sending multiple requests before the request returns
 - Improve: set restriction on the field using validate, only validate once when submit?
 - Fix: Pin Code Issue https://github.com/adar2378/pin_code_fields/issues/204 (login screen button to always shown above the keyboard) 邮件验证码加到标题
-- Fix: pin code email out of sight
 - Add: bug log report, custom support
 - Add: try logout user after password modification
 - Add: emoji support for normal texts
