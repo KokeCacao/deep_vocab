@@ -257,6 +257,20 @@ android-studio
 
 We don't have unit tests yet. But you can run `python test.py` to test basic function of libraries.
 
+### Frontend Build
+We build frontend app using [Codemagic.io](codemagic.io)
+
+You need to go to [AppleDevelopment](https://developer.apple.com/account) to get a bunch of keys for Apple's Publishing of APPs. You also want Codemagic to connect to Apple by giving Codemagic [API Key](https://appstoreconnect.apple.com/access/api).
+
+Sometimes you will get error like this:
+
+```
+> app-store-connect fetch-signing-files me.kokecacao.deepVocab --create --type IOS_APP_STORE --platform IOS --issuer-id xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx --key-id xxxxxxxxxx --private-key @env:AUTH_KEY --certificate-key @env:CERTIFICATE_KEY
+GET https://api.appstoreconnect.apple.com/v1/bundleIds?...returned 403: A required agreement is missing or has expired. - This request requires an in-effect agreement that has not been signed or has expired.
+```
+
+Then you need to go to [Account](https://developer.apple.com/account) and click the red warning banner to accept agreement (if any). And then re-try it in about 10 min.
+
 ## Backend Development
 
 ### Backend Installation
@@ -271,6 +285,7 @@ You need to create `.env` file in project directory. Be sure to change secret pa
 ```
 # Upload Download Configuration
 FLASK_APP=app.py
+BACKEND_SECRET_KEY=xxxxxxxxxxxxx
 DOWNLOAD_FOLDER=download/
 UPLOAD_FOLDER=upload/
 CSV_PATH=/home/koke_cacao/Documents/Koke_Cacao/Python/WorkSpace/Barron3500/巴郎Sat3500-excel-original版(Linux).csv
@@ -293,6 +308,12 @@ SQLALCHEMY_ECHO=True
 # SSL Context
 # FULL_CHAIN=/etc/letsencrypt/live/kokecacao.me/fullchain.pem
 # PRIVATE_KEY=/etc/letsencrypt/live/kokecacao.me/privkey.pem
+
+# Email Configuration
+SMTP_SERVER=smtp.qq.com
+SMTP_PORT=465
+SMTP_USER=i@kokecacao.me
+SMTP_PASSWORD=xxxxxxxxxxxxx
 ```
 
 To run this backend in development mode, first `cd` to `/deep_vocab`, and then:
