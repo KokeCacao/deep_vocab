@@ -152,6 +152,24 @@ https://github.com/KokeCacao/deep_vocab/releases
             :sparkles: HapticFeedback
             :sparkles: full nightmode implementation
             :arrow_up: bump version to version: 0.1.0+9
+2020/05/24: :sparkles: add run.sh, service, and install.sh
+2020/06/03: :sparkles: update environment.yml
+2020/06/10: :bomb: refactor code to be more readable
+            :bomb: using .env for major config
+2020/06/11: :bug: make install script more friendly
+            :bug: fix email verification display
+2020/06/17: :sparkles: update install env to python3.9
+2020/06/24: :bug: fix type error to compatible with .env file
+            :bug: make unit to seconds
+            :bug: modify install script to remind people change permission of database file
+            :bug: add secret key and smtp certificate to .env
+            :bug: fix verification time (Wu)
+            :bug: test_mutation create user simulate client side encryption
+            :bug: fix email format (Wu)
+2020/07/01: :bug: parse_kwargs password backend storage
+            :bug: fix password encryption order
+            :bug: fix environment variable loader
+            :bug: filter uuid for tasks
 ```
 </details>
 
@@ -161,7 +179,6 @@ https://github.com/KokeCacao/deep_vocab/releases
 
 ## TODO List
 ```
-- Fix: bug why sharing vocab data.
 - Add: Vocab Search Bar
 - Add: Tutorial Screen
 - Add: Wechat Login
