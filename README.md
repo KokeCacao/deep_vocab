@@ -19,7 +19,7 @@
 
 ## Features
 
-Deep Vocab is a mobile app that uses Machine Learning algorithm to actively push vocabularies that you about to forget, so that you can efficiently memorize them in your fragmented time.
+Deep Vocab is a mobile app that uses Machine Learning algorithms to actively push vocabulary that you are about to forget so that you can efficiently memorize them in your fragmented time.
 
 <p align="center">
   <img src="https://github.kokecacao.me/chenhanke.me/assets/images/deep_vocab_01.png" height="400">
