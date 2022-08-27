@@ -170,6 +170,10 @@ https://github.com/KokeCacao/deep_vocab/releases
             :bug: fix password encryption order
             :bug: fix environment variable loader
             :bug: filter uuid for tasks
+2022/07/29: :sparkles: add notification
+2020/08/05: :sparkles: add showcase
+2020/08/13: :sparkles: finish search bar
+2020/08/27: :bug: fixed F_log problem
 ```
 </details>
 
@@ -180,7 +184,7 @@ https://github.com/KokeCacao/deep_vocab/releases
 ## TODO List
 ```
 - Fix: tutorial stop showing after login
-- Fix: cannot display output log for backend
+- Fix: after log out tutorial will show download immediately
 - Add: Vocab Search Bar
 - Add: Tutorial Screen
 - Add: Wechat Login
