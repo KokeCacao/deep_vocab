@@ -179,6 +179,8 @@ https://github.com/KokeCacao/deep_vocab/releases
 
 ## TODO List
 ```
+- Fix: tutorial stop showing after login
+- Fix: cannot display output log for backend
 - Add: Vocab Search Bar
 - Add: Tutorial Screen
 - Add: Wechat Login
