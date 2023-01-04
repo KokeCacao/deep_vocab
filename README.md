@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.kokecacao.me/chenhanke.me/assets/images/deep_vocab.png" alt="Deep Vocab" width="200">
+  <img src="https://kokecacao.me/static/img/deep_vocab.png" alt="Deep Vocab" width="200">
   <br>Deep Vocab<br>
 </h1>
 
@@ -22,10 +22,10 @@
 Deep Vocab is a mobile app that uses Machine Learning algorithms to actively push vocabulary that you are about to forget so that you can efficiently memorize them in your fragmented time.
 
 <p align="center">
-  <img src="https://github.kokecacao.me/chenhanke.me/assets/images/deep_vocab_01.png" height="400">
-  <img src="https://github.kokecacao.me/chenhanke.me/assets/images/deep_vocab_02.png" height="400">
-  <img src="https://github.kokecacao.me/chenhanke.me/assets/images/deep_vocab_03.png" height="400">
-  <img src="https://github.kokecacao.me/chenhanke.me/assets/images/deep_vocab_04.png" height="400">
+  <img src="https://kokecacao.me/static/img/deep_vocab_01.png" height="400">
+  <img src="https://kokecacao.me/static/img/deep_vocab_02.png" height="400">
+  <img src="https://kokecacao.me/static/img/deep_vocab_03.png" height="400">
+  <img src="https://kokecacao.me/static/img/deep_vocab_04.png" height="400">
 </p>
 
 ## Release
